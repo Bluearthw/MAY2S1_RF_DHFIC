@@ -1,0 +1,9 @@
+-- Base gpdk045 library definition file	
+
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+
+DEFINE gpdk045 ./gpdk045
+#Removed by ddDeleteObj: DEFINE P /esat/studscratch/r0926826/7/PA_Design_31_20dBm_OP1dB/scripts_v3/P
+DEFINE PA_design /esat/studscratch/r0926826/7/PA_Design_31_20dBm_OP1dB/scripts_v3/PA_design

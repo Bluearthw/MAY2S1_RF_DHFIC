@@ -1,0 +1,5 @@
+# Temporary and log files
+*.log
+*.tmp
+**/log
+**/tmp
