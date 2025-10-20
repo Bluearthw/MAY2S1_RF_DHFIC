@@ -46,6 +46,35 @@
 						<value>schematic</value>
 					</option>
 				</origoptions>
+				<vars>
+					<var>r
+						<value>10</value>
+					</var>
+					<var>frf
+						<value>24G</value>
+					</var>
+					<var>prf
+						<value>0</value>
+					</var>
+					<var>rho
+						<value>0</value>
+					</var>
+					<var>phi
+						<value>0</value>
+					</var>
+					<var>cin
+						<value>62.9f</value>
+					</var>
+					<var>cout
+						<value>86f</value>
+					</var>
+					<var>lin
+						<value>250p</value>
+					</var>
+					<var>lout
+						<value>449p</value>
+					</var>
+				</vars>
 			</test>
 		</tests>
 		<extensions>
@@ -146,6 +175,35 @@
 								<value>schematic</value>
 							</option>
 						</origoptions>
+						<vars>
+							<var>r
+								<value>10</value>
+							</var>
+							<var>frf
+								<value>24G</value>
+							</var>
+							<var>prf
+								<value>0</value>
+							</var>
+							<var>rho
+								<value>0</value>
+							</var>
+							<var>phi
+								<value>0</value>
+							</var>
+							<var>cin
+								<value>62.9f</value>
+							</var>
+							<var>cout
+								<value>86f</value>
+							</var>
+							<var>lin
+								<value>250p</value>
+							</var>
+							<var>lout
+								<value>449p</value>
+							</var>
+						</vars>
 					</test>
 				</tests>
 				<extensions>
@@ -256,8 +314,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 19 21:31:21 2025</timestamp>
-			<uuid>{ab736540-3e39-4ac9-9d88-79c37d6aa5d6}</uuid>
+			<timestamp>Oct 20 19:44:54 2025</timestamp>
+			<uuid>{e028b9d2-dbe0-4b3e-97c4-b2baf6fd6ea9}</uuid>
 			<resultsname>/esat/studscratch/r0926826/7/PA_Design_31_20dBm_OP1dB/scripts_v3/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -266,7 +324,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas3-13.esat.kuleuven.be_r0926826_213121237</localpsfdir>
+			<localpsfdir>/tmp/pc-klas4-16.esat.kuleuven.be_r0926826_194454500</localpsfdir>
 			<psfdir>/users/students/r0926826/simulation/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

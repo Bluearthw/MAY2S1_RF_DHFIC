@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      r0926826
+HostName                       pc-klas4-16.esat.kuleuven.be
+ProcessIdentifier              5573
+ProcessCreationTime_UTC        1760977816
+ProcessCreationTime_Readable   Mon 20 Oct 2025 06:30:16 PM CEST CEST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /esat/studscratch/r0926826/7/PA_Design_31_20dBm_OP1dB/scripts_v3/MyWorkspace1_wrk/MyLibrary1_lib/%R%F_cell1/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon 20 Oct 2025 06:34:40 PM CEST CEST
