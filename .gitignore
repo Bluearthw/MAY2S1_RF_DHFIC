@@ -1,5 +1,7 @@
 # Temporary and log files
 *.log
 *.tmp
+*.cdslck
 **/log
 **/tmp
+
