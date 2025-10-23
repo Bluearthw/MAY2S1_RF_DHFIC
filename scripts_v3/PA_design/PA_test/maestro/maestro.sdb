@@ -48,40 +48,52 @@
 				</origoptions>
 				<vars>
 					<var>r
-						<value>1</value>
+						<value>3</value>
+						<tags></tags>
 					</var>
 					<var>frf
 						<value>24G</value>
+						<tags></tags>
 					</var>
 					<var>prf
 						<value>0</value>
+						<tags></tags>
 					</var>
 					<var>rho
 						<value>0</value>
+						<tags></tags>
 					</var>
 					<var>phi
 						<value>0</value>
+						<tags></tags>
 					</var>
 					<var>lin2
-						<value>133p</value>
+						<value>112p</value>
+						<tags></tags>
 					</var>
 					<var>cin
-						<value>545f</value>
+						<value>570f</value>
+						<tags></tags>
 					</var>
 					<var>lin
-						<value>43.1p</value>
-					</var>
-					<var>lout
-						<value>124p</value>
-					</var>
-					<var>cout
-						<value>532f</value>
+						<value>135p</value>
+						<tags></tags>
 					</var>
 					<var>lout2
-						<value>145p</value>
+						<value>134p</value>
+						<tags></tags>
+					</var>
+					<var>cout
+						<value>474f</value>
+						<tags></tags>
+					</var>
+					<var>lout
+						<value>103p</value>
+						<tags></tags>
 					</var>
 					<var>w
 						<value>1u</value>
+						<tags></tags>
 					</var>
 				</vars>
 			</test>
@@ -186,40 +198,52 @@
 						</origoptions>
 						<vars>
 							<var>r
-								<value>1</value>
+								<value>3</value>
+								<tags></tags>
 							</var>
 							<var>frf
 								<value>24G</value>
+								<tags></tags>
 							</var>
 							<var>prf
 								<value>0</value>
+								<tags></tags>
 							</var>
 							<var>rho
 								<value>0</value>
+								<tags></tags>
 							</var>
 							<var>phi
 								<value>0</value>
+								<tags></tags>
 							</var>
 							<var>lin2
-								<value>133p</value>
+								<value>112p</value>
+								<tags></tags>
 							</var>
 							<var>cin
-								<value>545f</value>
+								<value>570f</value>
+								<tags></tags>
 							</var>
 							<var>lin
-								<value>43.1p</value>
-							</var>
-							<var>lout
-								<value>124p</value>
-							</var>
-							<var>cout
-								<value>532f</value>
+								<value>135p</value>
+								<tags></tags>
 							</var>
 							<var>lout2
-								<value>145p</value>
+								<value>134p</value>
+								<tags></tags>
+							</var>
+							<var>cout
+								<value>474f</value>
+								<tags></tags>
+							</var>
+							<var>lout
+								<value>103p</value>
+								<tags></tags>
 							</var>
 							<var>w
 								<value>1u</value>
+								<tags></tags>
 							</var>
 						</vars>
 					</test>
@@ -332,8 +356,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 21 21:10:59 2025</timestamp>
-			<uuid>{8175083a-16ce-4005-889f-51273d8750fa}</uuid>
+			<timestamp>Oct 23 09:10:58 2025</timestamp>
+			<uuid>{2489a6e6-7696-4d89-b86f-8c6f11ea9265}</uuid>
 			<resultsname>/esat/studscratch/r0926826/7/PA_Design_31_20dBm_OP1dB/scripts_v3/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -342,7 +366,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-9.esat.kuleuven.be_r0926826_211059055</localpsfdir>
+			<localpsfdir>/tmp/pc-klas4-16.esat.kuleuven.be_r0926826_091058914</localpsfdir>
 			<psfdir>/users/students/r0926826/simulation/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

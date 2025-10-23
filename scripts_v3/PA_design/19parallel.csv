@@ -1,0 +1,13 @@
+Type,Name,Value,Enabled,Tags,Notes
+variable,r,3,enabled,,
+variable,frf,24G,enabled,,
+variable,prf,0,enabled,,
+variable,rho,0,enabled,,
+variable,phi,0,enabled,,
+variable,lin2,112p,enabled,,
+variable,cin,570f,enabled,,
+variable,lin,135p,enabled,,
+variable,lout2,791p,enabled,,
+variable,cout,1.14p,enabled,,
+variable,lout,55.3p,enabled,,
+variable,w,1u,enabled,,
