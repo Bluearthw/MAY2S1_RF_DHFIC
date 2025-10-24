@@ -48,7 +48,7 @@
 				</origoptions>
 				<vars>
 					<var>r
-						<value>3</value>
+						<value>6</value>
 						<tags></tags>
 					</var>
 					<var>frf
@@ -56,7 +56,7 @@
 						<tags></tags>
 					</var>
 					<var>prf
-						<value>0</value>
+						<value>5</value>
 						<tags></tags>
 					</var>
 					<var>rho
@@ -68,32 +68,35 @@
 						<tags></tags>
 					</var>
 					<var>lin2
-						<value>112p</value>
+						<value>146p</value>
 						<tags></tags>
 					</var>
 					<var>cin
-						<value>570f</value>
+						<value>369f</value>
 						<tags></tags>
 					</var>
 					<var>lin
-						<value>135p</value>
+						<value>151p</value>
 						<tags></tags>
 					</var>
 					<var>lout2
-						<value>134p</value>
+						<value>124p</value>
 						<tags></tags>
 					</var>
 					<var>cout
-						<value>474f</value>
+						<value>526f</value>
 						<tags></tags>
 					</var>
 					<var>lout
-						<value>103p</value>
+						<value>137p</value>
 						<tags></tags>
 					</var>
 					<var>w
 						<value>1u</value>
 						<tags></tags>
+					</var>
+					<var>q
+						<value>30</value>
 					</var>
 				</vars>
 			</test>
@@ -147,6 +150,26 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<specs>
+			<spec>PA_design_PA_test_1.Kf
+				<testname>PA_design_PA_test_1</testname>
+				<resname>Kf</resname>
+				<specType>gt</specType>
+				<min>1</min>
+				<max></max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>PA_design_PA_test_1.B1f
+				<testname>PA_design_PA_test_1</testname>
+				<resname>B1f</resname>
+				<specType>gt</specType>
+				<min>0</min>
+				<max></max>
+				<target></target>
+				<tol></tol>
+			</spec>
+		</specs>
 	</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
@@ -198,7 +221,7 @@
 						</origoptions>
 						<vars>
 							<var>r
-								<value>3</value>
+								<value>6</value>
 								<tags></tags>
 							</var>
 							<var>frf
@@ -206,7 +229,7 @@
 								<tags></tags>
 							</var>
 							<var>prf
-								<value>0</value>
+								<value>5</value>
 								<tags></tags>
 							</var>
 							<var>rho
@@ -218,32 +241,35 @@
 								<tags></tags>
 							</var>
 							<var>lin2
-								<value>112p</value>
+								<value>146p</value>
 								<tags></tags>
 							</var>
 							<var>cin
-								<value>570f</value>
+								<value>369f</value>
 								<tags></tags>
 							</var>
 							<var>lin
-								<value>135p</value>
+								<value>151p</value>
 								<tags></tags>
 							</var>
 							<var>lout2
-								<value>134p</value>
+								<value>124p</value>
 								<tags></tags>
 							</var>
 							<var>cout
-								<value>474f</value>
+								<value>526f</value>
 								<tags></tags>
 							</var>
 							<var>lout
-								<value>103p</value>
+								<value>137p</value>
 								<tags></tags>
 							</var>
 							<var>w
 								<value>1u</value>
 								<tags></tags>
+							</var>
+							<var>q
+								<value>30</value>
 							</var>
 						</vars>
 					</test>
@@ -348,6 +374,26 @@
 					<copyreferenceresults>1</copyreferenceresults>
 				</incrementalsimsetup>
 				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<specs>
+					<spec>PA_design_PA_test_1.Kf
+						<testname>PA_design_PA_test_1</testname>
+						<resname>Kf</resname>
+						<specType>gt</specType>
+						<min>1</min>
+						<max></max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>PA_design_PA_test_1.B1f
+						<testname>PA_design_PA_test_1</testname>
+						<resname>B1f</resname>
+						<specType>gt</specType>
+						<min>0</min>
+						<max></max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
 				<runnabletests>
 					<test>PA_design_PA_test_1</test>
 				</runnabletests>
@@ -356,8 +402,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Oct 23 09:10:58 2025</timestamp>
-			<uuid>{2489a6e6-7696-4d89-b86f-8c6f11ea9265}</uuid>
+			<timestamp>Oct 24 09:12:20 2025</timestamp>
+			<uuid>{e3e3e5a8-40cc-4fb0-80a6-98499a53a217}</uuid>
 			<resultsname>/esat/studscratch/r0926826/7/PA_Design_31_20dBm_OP1dB/scripts_v3/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -366,7 +412,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas4-16.esat.kuleuven.be_r0926826_091058914</localpsfdir>
+			<localpsfdir>/tmp/pc-klas4-16.esat.kuleuven.be_r0926826_091220125</localpsfdir>
 			<psfdir>/users/students/r0926826/simulation/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/PA_design/PA_test/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

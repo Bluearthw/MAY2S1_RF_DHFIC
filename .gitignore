@@ -2,6 +2,7 @@
 *.log
 *.tmp
 *.cdslck
+*
 **/log
 **/tmp
 
